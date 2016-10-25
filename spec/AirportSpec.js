@@ -24,4 +24,8 @@ describe('Airport', function(){
     expect(airport.planes()).toEqual([]);
   });
 
+  it('can check for stormy conditions', function(){
+    expect(airport.isStormy()).toBeFalsy();
+  });
+
 });

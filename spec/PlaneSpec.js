@@ -19,4 +19,5 @@ describe('Plane', function(){
     plane.take_off();
     expect(airport.clearForTakeOff.toHaveBeenCalled();
   });
+
 });
